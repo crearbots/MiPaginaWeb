@@ -1,0 +1,97 @@
+body {
+    margin:0;               /*Se quita la margen*/
+    padding:0;              /*Se elimina el relleno*/
+    background: #EDF6F9;
+}
+
+.name {
+    width: 100%;
+    height: 300px;          /*Se define la altura*/
+    background: #83C5BE;
+    transform: skewY(-5deg) /*Se gira el contenedor los grados indicados*/
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;     /*Permite mover el contenido libremente*/
+    left: 25%;
+}
+
+.name .content .p1 {
+    color: #340068;
+    font-weight: bolder;    /*Se ve con un aspecto de negrilla*/
+    font-size: 55px;        /*Definir el tamano*/
+    transform: skewY(5deg); /*Se gira el contenedor los grados indicados*/
+    margin-bottom: 0;       /*La margen del fondo se establece como cero*/
+}
+
+.name .content .p2 {
+    color: #340068;
+    font-size: 35px;        /*Definir el tamano*/
+    transform: skewY(5deg); /*Se gira el contenedor los grados indicados*/
+    margin-top: 0;          /*La margen de encima se establece como cero*/
+    margin-bottom: 0;       /*La margen del fondo se establece como cero*/
+}
+
+.name .img {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    transform: skewY(5deg); /*Se gira el contenedor los grados indicados*/
+    overflow: hidden;       /*Oculta el desbordamiento*/
+    border-radius: 100%;
+}
+
+.name .img img {
+    width: 200px;
+    height: 300px;
+}
+
+.info {
+    width: 90%;
+    height: auto;           /*La altura del contenedor se ajusta segun el contenido*/
+    background: #83C5BE;
+    margin: 5% auto;        /*Margen exterior (arriba y abajo) (los lados)*/
+    padding: 20px;          /*Margen interior*/
+    border-radius: 20px;    /*El borde de las puntas se redondea*/
+}
+
+.info .tituloSeccion {
+    color: #340068;
+    font-size: xx-large;    /*Tamaño de fuente grande*/
+    text-align: center;     /*Centrar texto*/
+    font-weight: bolder;    /*Negrilla al texto*/
+    border-bottom: 2px #340068 dashed;  /*Linea del fondo (tamaño)(color)(estilo)*/
+}
+
+.info .tituloInfo {
+    color: #340068;
+    font-size: large;
+    font-weight: bolder;
+    display: inline;        /*El desplegado sera en linea*/ 
+    margin-right: 20px;
+}
+
+.info .infoInfo {
+    font-size: large;
+    font-weight: normal;
+    display: inline;        /*El desplegado sera en linea*/
+}
+
+.fin {
+    width: auto;
+    height: auto;          /*Se define la altura*/
+    background: #83C5BE;
+    padding: 20px;
+}
+
+.fin .tituloInfo {
+    color: #340068;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+
