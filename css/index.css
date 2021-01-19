@@ -65,6 +65,8 @@ body {
     text-align: center;     /*Centrar texto*/
     font-weight: bolder;    /*Negrilla al texto*/
     border-bottom: 2px #340068 dashed;  /*Linea del fondo (tamaño)(color)(estilo)*/
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .info .tituloInfo {
