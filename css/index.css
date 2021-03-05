@@ -3,6 +3,10 @@ body {
     padding:0;              /*Se elimina el relleno*/
 }
 
+footer {
+    text-align: center;
+}
+
 video {
     position: fixed;
     min-width: 100%;
