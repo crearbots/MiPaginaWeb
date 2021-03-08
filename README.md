@@ -57,3 +57,19 @@ ___
 ```bash
 echo "Hola mundo :D"
 ```
+
+<!-- Crear tablas -->
+| Tables        | Are         | Cool  |
+|-----------    |-------      |-------|
+|col 3 is       |right-alined |$1600  |
+|col 2 is       |centered     |$12    |
+|zebra stripers |are neat     |$1     |
+
+<!-- Insertar imagen -->
+![Poster](img/poster.jpg "Poster de Espera")
+
+<!-- GITHUB MARKDOWN -->
+* [x] Task 1
+* [] Task 2
+* [] Task 3
+* [x] Task 4
